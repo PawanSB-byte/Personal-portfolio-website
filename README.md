@@ -2,8 +2,8 @@
 
 ## 👩‍🎓 Details
 
-- **Name:** KUMAR SUBODH
-- **Roll Number:** 2401010205  
+- **Name:** Pawan Singh Bisht 
+- **Roll Number:** 2401010153  
 - **Course:** B.Tech CSE CORE
 - **Course Name:** Web Programming with Python and Javascript Lab 
 - **Course Code: ** SEC035
