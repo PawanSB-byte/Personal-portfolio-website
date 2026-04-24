@@ -1,0 +1,211 @@
+/* ====== Google Font ====== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ====== Body Styling ====== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f8fbff, #eaf3ff);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ====== Welcome Section ====== */
+.welcome {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+.welcome button {
+    margin-top: 12px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 25px;
+    background: white;
+    color: #764ba2;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.welcome button:hover {
+    transform: scale(1.05);
+    background: #f0f0f0;
+}
+
+/* ====== Header ====== */
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.tagline {
+    color: #666;
+    margin-top: 10px;
+}
+
+/* ====== Navigation ====== */
+nav {
+    background: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #667eea;
+}
+
+/* ====== Sections ====== */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #444;
+}
+
+/* ====== Skills Cards ====== */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 20px 30px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-weight: 500;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* ====== Project Cards ====== */
+.project-card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #f8f9ff;
+    transition: 0.3s ease;
+    border-left: 5px solid #667eea;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* ====== Contact Form ====== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 8px rgba(102,126,234,0.3);
+}
+
+button[type="submit"] {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
+#formMessage {
+    margin-top: 10px;
+    text-align: center;
+    color: green;
+    font-weight: 500;
+}
+
+/* ====== Footer ====== */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #667eea;
+    color: white;
+}
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 20px;
+        padding: 20px;
+    }
+}

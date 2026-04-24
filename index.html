@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Welcome Message -->
+    <div class="welcome">
+        <h2>Welcome to My Portfolio Website!</h2>
+        <button id="welcomeBtn">Click Me</button>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>KUMAR SUBODH</h1>
+        <p class="tagline">Aspiring Web Developer | Creative Thinker</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+I am a motivated Computer Science student with a strong interest in web development and problem solving.
+I enjoy creating responsive, user-friendly applications using modern technologies.
+</p>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="card-container">
+            <div class="card">Python</div>
+            <div class="card">Java</div>
+            <div class="card">C++</div>
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <article class="project-card">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A responsive personal portfolio website built using HTML and CSS.</p>
+        </article>
+
+        <article class="project-card">
+            <h3>Project 2: To-Do App</h3>
+            <p>A simple task management app using JavaScript for dynamic interaction.</p>
+        </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 YOUR NAME | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
