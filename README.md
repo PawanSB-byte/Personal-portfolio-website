@@ -35,18 +35,3 @@ The project demonstrates semantic HTML structure, modern CSS styling, and basic 
 - JavaScript (DOM Manipulation, Event Handling)
 
 ---
-
-## ⚙️ How to Run the Project
-
-1. Download or clone the repository:
-   git clone https://github.com/KumarSubodh12/COMPANY-LANDING-PAGE.git
-
-
-2. Open the project folder:
-cd personal_portfolio
-
-
-3. Open the `index.html` file in any web browser:
-- Double-click `index.html`
-
-
